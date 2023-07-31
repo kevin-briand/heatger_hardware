@@ -892,14 +892,8 @@
   (junction (at 93.98 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 0d0b85e4-964c-4057-8aa3-c2e20556d86b)
   )
-  (junction (at 135.89 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid 1f76804a-5410-4ee9-8886-8040ec45d98f)
-  )
   (junction (at 143.51 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 36409e02-a182-4652-a5fc-9a51bf0f6526)
-  )
-  (junction (at 138.43 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid 3b793977-19ae-4c89-9472-704e5437458a)
   )
   (junction (at 199.39 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 3fcd741d-9231-4fb3-ad5e-84608861db4f)
@@ -913,20 +907,35 @@
   (junction (at 107.95 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 4aa3c553-42b5-47c4-ac01-07565f3607e0)
   )
+  (junction (at 134.62 67.31) (diameter 0) (color 0 0 0 0)
+    (uuid 522c3822-2b26-4736-9953-3b1b5240bd4c)
+  )
+  (junction (at 86.36 66.04) (diameter 0) (color 0 0 0 0)
+    (uuid 52e67601-dc87-4bd9-8f6b-93b1a473c7c8)
+  )
   (junction (at 156.21 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 539a6c48-2aeb-4796-9b97-948f239392f4)
   )
   (junction (at 142.24 138.43) (diameter 0) (color 0 0 0 0)
     (uuid 65a7f29c-2a32-4e1c-9b2b-7a31310232bb)
   )
+  (junction (at 137.16 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 66d05978-03e5-4922-af6f-e6a782adb256)
+  )
   (junction (at 144.78 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 7d8b1581-5ecf-44ac-a48e-c9d8faa37ea8)
   )
-  (junction (at 138.43 46.99) (diameter 0) (color 0 0 0 0)
+  (junction (at 137.16 59.69) (diameter 0) (color 0 0 0 0)
+    (uuid 8513f065-e762-4fde-92bb-ca7f6512e8ea)
+  )
+  (junction (at 128.27 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 8a1d263b-b808-43b7-bbe7-3c24aa350267)
   )
   (junction (at 121.92 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 8e8f1715-c5f8-4b86-bd88-ade9a4dcd47d)
+  )
+  (junction (at 147.32 59.69) (diameter 0) (color 0 0 0 0)
+    (uuid 9065b8d6-0b51-469f-9379-8415b3ab44da)
   )
   (junction (at 85.09 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 9c1eaefb-1897-48ed-ae56-9f324b01d4ee)
@@ -937,11 +946,17 @@
   (junction (at 93.98 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 9fd012e6-46c9-45e4-aed0-6e51283844c4)
   )
+  (junction (at 135.89 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid ab4476d2-bb79-490b-8811-628c78ae2cdb)
+  )
   (junction (at 93.98 91.44) (diameter 0) (color 0 0 0 0)
     (uuid b714837a-6044-42bc-b5b0-be205c70b110)
   )
   (junction (at 142.24 69.85) (diameter 0) (color 0 0 0 0)
     (uuid c22a343e-bb9b-4e5a-b518-2e44e6c6597c)
+  )
+  (junction (at 128.27 35.56) (diameter 0) (color 0 0 0 0)
+    (uuid c378f8a6-bdff-475f-bf6b-8bcbf5cc476b)
   )
   (junction (at 134.62 134.62) (diameter 0) (color 0 0 0 0)
     (uuid ce2fe86a-a8f6-4522-b040-e1d93aaba338)
@@ -951,9 +966,6 @@
   )
   (junction (at 85.09 80.01) (diameter 0) (color 0 0 0 0)
     (uuid f1627417-3262-43f1-a71d-10792cd7bb6f)
-  )
-  (junction (at 140.97 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid f6e8b9a5-4449-4c60-8f16-b5e1deb4ee3e)
   )
   (junction (at 157.48 100.33) (diameter 0) (color 0 0 0 0)
     (uuid f725b5e9-8963-4a64-b4a3-61b8d12d8363)
@@ -979,13 +991,13 @@
     (stroke (width 0) (type default))
     (uuid 00fdb7ed-ee3b-46cd-8fb2-b842f48cd484)
   )
+  (wire (pts (xy 128.27 35.56) (xy 85.09 35.56))
+    (stroke (width 0) (type default))
+    (uuid 046fca8f-9952-4876-8e45-896008dc62db)
+  )
   (wire (pts (xy 134.62 71.12) (xy 129.54 71.12))
     (stroke (width 0) (type default))
     (uuid 05850a0c-a480-4052-8c80-9d621b79c7b7)
-  )
-  (wire (pts (xy 138.43 35.56) (xy 156.21 35.56))
-    (stroke (width 0) (type default))
-    (uuid 07e52930-e4f0-4d23-9b6d-65effbc0afdd)
   )
   (wire (pts (xy 167.64 134.62) (xy 134.62 134.62))
     (stroke (width 0) (type default))
@@ -999,7 +1011,11 @@
     (stroke (width 0) (type default))
     (uuid 0f5e5ba0-40ab-4890-b03f-dfc1176e3b7b)
   )
-  (wire (pts (xy 135.89 54.61) (xy 135.89 67.31))
+  (wire (pts (xy 128.27 35.56) (xy 156.21 35.56))
+    (stroke (width 0) (type default))
+    (uuid 13400139-3d28-4c10-b220-3fe9ffc21d13)
+  )
+  (wire (pts (xy 125.73 55.88) (xy 125.73 67.31))
     (stroke (width 0) (type default))
     (uuid 14019be9-a0fd-4eb4-8fe2-3f76d4c6e4ec)
   )
@@ -1011,6 +1027,10 @@
     (stroke (width 0) (type default))
     (uuid 158ebda5-3836-47ed-92d1-80ee095529e0)
   )
+  (wire (pts (xy 86.36 66.04) (xy 85.09 66.04))
+    (stroke (width 0) (type default))
+    (uuid 174753fc-011c-4662-bb6a-f4ae5300f5d0)
+  )
   (wire (pts (xy 135.89 69.85) (xy 135.89 76.2))
     (stroke (width 0) (type default))
     (uuid 18035f54-e083-4927-b379-c034fb32606c)
@@ -1018,10 +1038,6 @@
   (wire (pts (xy 189.23 74.93) (xy 196.85 74.93))
     (stroke (width 0) (type default))
     (uuid 1ab7364f-f034-4b43-adbb-3f1139499213)
-  )
-  (wire (pts (xy 135.89 67.31) (xy 139.7 67.31))
-    (stroke (width 0) (type default))
-    (uuid 1cf3d7af-2924-420a-992c-b0afda3e9e6e)
   )
   (wire (pts (xy 142.24 69.85) (xy 142.24 138.43))
     (stroke (width 0) (type default))
@@ -1055,10 +1071,6 @@
     (stroke (width 0) (type default))
     (uuid 26202fc2-4559-4033-9c30-7a60c1c2d5f0)
   )
-  (wire (pts (xy 142.24 69.85) (xy 140.97 69.85))
-    (stroke (width 0) (type default))
-    (uuid 27734933-a661-4820-9cef-21c80af0739d)
-  )
   (wire (pts (xy 162.56 142.24) (xy 162.56 137.16))
     (stroke (width 0) (type default))
     (uuid 2784d203-2309-411e-af8f-9004985a73a5)
@@ -1075,7 +1087,11 @@
     (stroke (width 0) (type default))
     (uuid 2b343fd0-0db8-47c9-93f4-f31a5b21f306)
   )
-  (wire (pts (xy 138.43 35.56) (xy 138.43 46.99))
+  (wire (pts (xy 137.16 59.69) (xy 137.16 58.42))
+    (stroke (width 0) (type default))
+    (uuid 2c636edd-f5c1-419b-a3e7-6ae747a9657f)
+  )
+  (wire (pts (xy 128.27 35.56) (xy 128.27 48.26))
     (stroke (width 0) (type default))
     (uuid 2d070ff5-79d3-4530-9c33-1342fccbfed1)
   )
@@ -1086,10 +1102,6 @@
   (wire (pts (xy 170.18 67.31) (xy 172.72 67.31))
     (stroke (width 0) (type default))
     (uuid 329fc8bb-d27b-4a6f-9685-eea86c7d7801)
-  )
-  (wire (pts (xy 140.97 69.85) (xy 135.89 69.85))
-    (stroke (width 0) (type default))
-    (uuid 32bfe38f-bf14-412d-b0cb-caea926f3637)
   )
   (wire (pts (xy 121.92 114.3) (xy 137.16 114.3))
     (stroke (width 0) (type default))
@@ -1103,10 +1115,6 @@
     (stroke (width 0) (type default))
     (uuid 36264292-f81c-4db9-9542-6bd2088d76c9)
   )
-  (wire (pts (xy 138.43 35.56) (xy 85.09 35.56))
-    (stroke (width 0) (type default))
-    (uuid 37a3e753-fe88-4d45-87ab-d552ae25a698)
-  )
   (wire (pts (xy 167.64 142.24) (xy 167.64 134.62))
     (stroke (width 0) (type default))
     (uuid 38e3ed9b-4adf-4b56-91c6-1e0613372368)
@@ -1115,6 +1123,10 @@
     (stroke (width 0) (type default))
     (uuid 39650703-c272-48b1-89cf-eed0feb4fce4)
   )
+  (wire (pts (xy 137.16 50.8) (xy 147.32 50.8))
+    (stroke (width 0) (type default))
+    (uuid 3b3b57f6-8735-4890-95bc-e0ef550a423f)
+  )
   (wire (pts (xy 121.92 114.3) (xy 121.92 116.84))
     (stroke (width 0) (type default))
     (uuid 3eae7dcd-9b2f-4dc0-a561-9ca8bea5d332)
@@ -1122,6 +1134,10 @@
   (wire (pts (xy 139.7 67.31) (xy 139.7 137.16))
     (stroke (width 0) (type default))
     (uuid 3fd37d85-c91a-43d8-826f-245e1532999f)
+  )
+  (wire (pts (xy 130.81 69.85) (xy 135.89 69.85))
+    (stroke (width 0) (type default))
+    (uuid 431ba610-0e8d-4e4f-a268-6a7228f15ce0)
   )
   (wire (pts (xy 181.61 55.88) (xy 181.61 69.85))
     (stroke (width 0) (type default))
@@ -1155,7 +1171,7 @@
     (stroke (width 0) (type default))
     (uuid 5c1de894-6048-414f-bd99-3ce394e6bc02)
   )
-  (wire (pts (xy 135.89 46.99) (xy 138.43 46.99))
+  (wire (pts (xy 125.73 48.26) (xy 128.27 48.26))
     (stroke (width 0) (type default))
     (uuid 5f2b2c0b-41bb-4323-9fa9-44e9196ff10e)
   )
@@ -1179,9 +1195,13 @@
     (stroke (width 0) (type default))
     (uuid 72e755a0-1492-4197-9e74-3ee96009b985)
   )
-  (wire (pts (xy 134.62 67.31) (xy 135.89 67.31))
+  (wire (pts (xy 134.62 67.31) (xy 139.7 67.31))
     (stroke (width 0) (type default))
     (uuid 7342e87e-0447-471c-9bd7-ad4e1176a451)
+  )
+  (wire (pts (xy 137.16 59.69) (xy 93.98 59.69))
+    (stroke (width 0) (type default))
+    (uuid 75820699-fc36-435b-860a-107eee6065c1)
   )
   (wire (pts (xy 196.85 55.88) (xy 199.39 55.88))
     (stroke (width 0) (type default))
@@ -1191,7 +1211,7 @@
     (stroke (width 0) (type default))
     (uuid 762a2264-faa2-4b40-b717-c9bfefca52f8)
   )
-  (wire (pts (xy 138.43 46.99) (xy 140.97 46.99))
+  (wire (pts (xy 128.27 48.26) (xy 130.81 48.26))
     (stroke (width 0) (type default))
     (uuid 78b12079-a20d-4b5f-b358-1369ec84fabc)
   )
@@ -1247,6 +1267,10 @@
     (stroke (width 0) (type default))
     (uuid 8e7b14d7-12de-4602-b680-de12d91798cc)
   )
+  (wire (pts (xy 137.16 36.83) (xy 86.36 36.83))
+    (stroke (width 0) (type default))
+    (uuid 9646f93f-68f9-43a4-9672-330b0ea43855)
+  )
   (wire (pts (xy 129.54 86.36) (xy 129.54 106.68))
     (stroke (width 0) (type default))
     (uuid 9af4c727-bab0-4342-a31d-19ab23059e0f)
@@ -1259,6 +1283,10 @@
     (stroke (width 0) (type default))
     (uuid a1b88bd8-cbe6-416d-b59c-b00b1e9b54df)
   )
+  (wire (pts (xy 137.16 50.8) (xy 137.16 36.83))
+    (stroke (width 0) (type default))
+    (uuid a29aef50-302a-425e-b7f1-0af12e37f620)
+  )
   (wire (pts (xy 157.48 100.33) (xy 199.39 100.33))
     (stroke (width 0) (type default))
     (uuid a29e1098-11d0-4135-bbcc-4099d3f8c8b1)
@@ -1266,6 +1294,10 @@
   (wire (pts (xy 187.96 82.55) (xy 187.96 66.04))
     (stroke (width 0) (type default))
     (uuid a4c9c9ce-7b8a-4dba-8084-2823339e661d)
+  )
+  (wire (pts (xy 135.89 69.85) (xy 142.24 69.85))
+    (stroke (width 0) (type default))
+    (uuid a73b0e13-53e4-4568-9bfe-4fd451843fc5)
   )
   (wire (pts (xy 137.16 135.89) (xy 137.16 142.24))
     (stroke (width 0) (type default))
@@ -1279,7 +1311,11 @@
     (stroke (width 0) (type default))
     (uuid b474f39f-6104-461f-80af-7664eef67b4c)
   )
-  (wire (pts (xy 140.97 54.61) (xy 140.97 69.85))
+  (wire (pts (xy 125.73 67.31) (xy 134.62 67.31))
+    (stroke (width 0) (type default))
+    (uuid b5905e73-06b9-429f-b752-4ec1732d93dd)
+  )
+  (wire (pts (xy 130.81 55.88) (xy 130.81 69.85))
     (stroke (width 0) (type default))
     (uuid b5eaf941-922d-4929-9364-cdc57b127ba9)
   )
@@ -1295,7 +1331,7 @@
     (stroke (width 0) (type default))
     (uuid bb06e51d-1172-46dc-8c7a-83b976294147)
   )
-  (wire (pts (xy 93.98 66.04) (xy 85.09 66.04))
+  (wire (pts (xy 93.98 66.04) (xy 86.36 66.04))
     (stroke (width 0) (type default))
     (uuid bedd3657-e0c4-462b-92b2-22272ae6fb39)
   )
@@ -1343,6 +1379,10 @@
     (stroke (width 0) (type default))
     (uuid d18dfe09-aab0-4abb-bf34-54be209368cd)
   )
+  (wire (pts (xy 137.16 59.69) (xy 147.32 59.69))
+    (stroke (width 0) (type default))
+    (uuid da0690a2-50de-4ced-8c79-0eb6f2676eff)
+  )
   (wire (pts (xy 185.42 74.93) (xy 185.42 50.8))
     (stroke (width 0) (type default))
     (uuid db44c0bd-9995-4244-9dd1-14bf2a857636)
@@ -1359,7 +1399,7 @@
     (stroke (width 0) (type default))
     (uuid df0f33a6-431f-47de-a5ba-51a1e3899b3b)
   )
-  (wire (pts (xy 157.48 59.69) (xy 93.98 59.69))
+  (wire (pts (xy 157.48 59.69) (xy 147.32 59.69))
     (stroke (width 0) (type default))
     (uuid df47551e-0218-4a23-97d6-c088760a4ba2)
   )
@@ -1387,6 +1427,10 @@
     (stroke (width 0) (type default))
     (uuid f1f71280-5a64-43c6-b184-06d629a774b0)
   )
+  (wire (pts (xy 86.36 36.83) (xy 86.36 66.04))
+    (stroke (width 0) (type default))
+    (uuid f24c26a0-c298-451e-890e-b226c9d58d29)
+  )
   (wire (pts (xy 160.02 142.24) (xy 160.02 138.43))
     (stroke (width 0) (type default))
     (uuid f30363c3-0504-429b-b7a6-9d75b4b99e44)
@@ -1403,6 +1447,10 @@
     (stroke (width 0) (type default))
     (uuid f617d05f-62ea-42c2-bb3f-f673901fbd00)
   )
+  (wire (pts (xy 147.32 59.69) (xy 147.32 58.42))
+    (stroke (width 0) (type default))
+    (uuid f713a66b-c097-403a-9b69-fb049b7ef4c5)
+  )
   (wire (pts (xy 186.69 80.01) (xy 186.69 45.72))
     (stroke (width 0) (type default))
     (uuid f85d2fa0-21e4-43a8-91bc-0201bbe598fa)
@@ -1418,6 +1466,37 @@
   (wire (pts (xy 156.21 53.34) (xy 156.21 45.72))
     (stroke (width 0) (type default))
     (uuid fd4b65bf-db8b-4d1b-aae4-cfcc8028dc37)
+  )
+
+  (symbol (lib_id "Device:C") (at 147.32 54.61 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 001fd3ac-cde9-40c9-a331-34a187ca4e65)
+    (property "Reference" "C4" (at 143.51 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF" (at 143.51 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 146.3548 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 147.32 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f1d5ac5-af4b-4c6c-afaa-e6a92b66d522))
+    (pin "2" (uuid 471daef6-033e-414d-9e3f-dd1bdb40aab5))
+    (instances
+      (project "heatger_I2C"
+        (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "heatger"
+        (path "/c93ebaa2-885f-443c-a0c5-bc850a14333e"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R") (at 176.53 72.39 90) (unit 1)
@@ -1438,7 +1517,7 @@
     (pin "1" (uuid 30e1b27b-9f5f-43c6-b9b2-102d448415cd))
     (pin "2" (uuid 9dc8d99e-1d85-4cbc-b993-0621b4185b0d))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R6") (unit 1)
         )
@@ -1464,7 +1543,7 @@
     (pin "1" (uuid 27d171f5-3b52-4168-bffc-babda4a80cee))
     (pin "2" (uuid 0c9f0369-9676-4a53-bee8-ee02130904a4))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R2") (unit 1)
         )
@@ -1490,7 +1569,7 @@
     (pin "1" (uuid 64709b22-f7ef-4063-9fca-4f888e8498c8))
     (pin "2" (uuid 9162db39-a4eb-4bf9-a59a-627ae1fad8cf))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R8") (unit 1)
         )
@@ -1516,7 +1595,7 @@
     (pin "1" (uuid 806488d1-d60f-4253-8253-203cbb2ad189))
     (pin "2" (uuid fd98a93a-f46a-45df-a891-1dfb010befe9))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R3") (unit 1)
         )
@@ -1542,7 +1621,7 @@
     (pin "1" (uuid 86b199ef-8fa7-451f-a513-6e68b10ab52f))
     (pin "2" (uuid bc2265e5-3238-4bc1-a770-edce2c94bc29))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R5") (unit 1)
         )
@@ -1567,7 +1646,7 @@
     )
     (pin "1" (uuid 9fb9d386-d8c1-4b00-9a61-5b46fce61f94))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "#PWR02") (unit 1)
         )
@@ -1592,7 +1671,7 @@
     )
     (pin "1" (uuid f3450374-2acd-480e-b88d-ff74edbd0255))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "#PWR01") (unit 1)
         )
@@ -1600,25 +1679,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 135.89 50.8 180) (unit 1)
+  (symbol (lib_id "Device:R") (at 125.73 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70d177cc-bf76-4f2d-bd60-c66c9b429e6b)
-    (property "Reference" "R10" (at 135.89 45.72 90)
+    (property "Reference" "R10" (at 125.73 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1000" (at 135.89 50.8 90)
+    (property "Value" "1000" (at 125.73 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 137.668 50.8 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 127.508 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 135.89 50.8 0)
+    (property "Datasheet" "~" (at 125.73 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8c827441-c9c2-49c2-8c78-f3cd33459ec6))
     (pin "2" (uuid 0a3e0128-348d-4d4a-bdb9-9dc5fffafbed))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R10") (unit 1)
         )
@@ -1644,7 +1723,7 @@
     (pin "1" (uuid 2295236b-e4e9-478a-bd55-b881904f8f8b))
     (pin "2" (uuid 9221573c-cc12-4b0e-bafd-68c2b7de94b9))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "C1") (unit 1)
         )
@@ -1677,9 +1756,40 @@
     (pin "3" (uuid f4934e3d-6e31-42fb-9cc1-d6b48013a8b3))
     (pin "4" (uuid 33add5f0-7f99-409f-922c-22209810fca3))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 137.16 54.61 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8d5202b1-f0cd-4445-8cf0-b26c8f4c2b24)
+    (property "Reference" "C3" (at 133.35 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 133.35 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 136.1948 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 137.16 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c743a2f-338e-4c57-a9ee-2cddb62c7d3f))
+    (pin "2" (uuid 4cb14365-59b1-4e16-8bf0-0754bb9ccb9b))
+    (instances
+      (project "heatger_I2C"
+        (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "heatger"
+        (path "/c93ebaa2-885f-443c-a0c5-bc850a14333e"
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1703,7 +1813,7 @@
     (pin "1" (uuid 8d27d504-73f2-46c5-82ea-3974b2bc8775))
     (pin "2" (uuid 66d017ea-c34d-433d-8d68-bab678176dfc))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "SW4") (unit 1)
         )
@@ -1729,7 +1839,7 @@
     (pin "1" (uuid 6ed53589-9124-48f6-9b54-3182885eba33))
     (pin "2" (uuid b51b5393-437d-4686-87c9-1a45f82136fb))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R4") (unit 1)
         )
@@ -1757,7 +1867,7 @@
     (pin "3" (uuid 341325d8-80d8-423e-b3af-d31ad0f0611b))
     (pin "4" (uuid 6ddcda8c-fa26-493a-881b-4586cba623e3))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "J2") (unit 1)
         )
@@ -1785,7 +1895,7 @@
     (pin "3" (uuid a3bec5e6-278d-41d2-bb8c-d62b746d99c7))
     (pin "4" (uuid 754f097b-0906-49f8-ac2f-1a840af62128))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "J3") (unit 1)
         )
@@ -1811,7 +1921,7 @@
     (pin "1" (uuid 08feba06-cbf0-43f4-ba1d-47f7cf67df09))
     (pin "2" (uuid 7f138342-55b5-4e8e-9683-1b1300f8f602))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R1") (unit 1)
         )
@@ -1837,7 +1947,7 @@
     (pin "1" (uuid 6ab76798-9ab4-4d9c-a5c3-d78aab528b19))
     (pin "2" (uuid 0ad99bee-77ed-41f8-9be5-24146ac68e27))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "C2") (unit 1)
         )
@@ -1872,7 +1982,7 @@
     (pin "7" (uuid 4ebf8eac-ebf2-4329-a22c-944927d1c629))
     (pin "8" (uuid be37a456-b797-4e35-8d13-d06867e1d021))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "U1") (unit 1)
         )
@@ -1880,25 +1990,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 140.97 50.8 180) (unit 1)
+  (symbol (lib_id "Device:R") (at 130.81 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4ac5fc5-7e71-4dad-83d4-a965e7e6b253)
-    (property "Reference" "R11" (at 140.97 45.72 90)
+    (property "Reference" "R11" (at 130.81 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1000" (at 140.97 50.8 90)
+    (property "Value" "1000" (at 130.81 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 142.748 50.8 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 132.588 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 140.97 50.8 0)
+    (property "Datasheet" "~" (at 130.81 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b75bb28f-c79b-4262-842d-0c6c9f01ef05))
     (pin "2" (uuid 9cbc59c5-a718-429e-98d7-f5382728b27e))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R11") (unit 1)
         )
@@ -1924,7 +2034,7 @@
     (pin "1" (uuid ae2bcb68-fc5c-498e-98be-5ecb6f970e6a))
     (pin "2" (uuid f17eb3f2-83da-463e-9fed-bed33363622a))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "R7") (unit 1)
         )
@@ -1952,7 +2062,7 @@
     (pin "3" (uuid 68afa749-253c-493f-b006-913265553792))
     (pin "4" (uuid ae571734-ae4e-4fe5-ad05-710e8e025deb))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "D1") (unit 1)
         )
@@ -1992,7 +2102,7 @@
     (pin "8" (uuid 7085df89-bbd2-4c83-af41-82988e554e3e))
     (pin "9" (uuid 089b9d4b-69f0-492c-a80c-9c66e8cb8480))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "U2") (unit 1)
         )
@@ -2020,7 +2130,7 @@
     (pin "3" (uuid a3ffe73e-edc5-4245-a03d-ec71a2440713))
     (pin "4" (uuid b481cd40-3cb9-44dc-913d-2877b00e45e4))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "D2") (unit 1)
         )
@@ -2046,7 +2156,7 @@
     (pin "1" (uuid b61a5748-6153-4286-885f-dc146939bc4b))
     (pin "2" (uuid 1c7e2f8b-5de1-40bc-a4b8-34ebb5a6b37b))
     (instances
-      (project "heatger I2C"
+      (project "heatger_I2C"
         (path "/b44320e9-568c-469b-bf21-31aa4db301c6"
           (reference "SW3") (unit 1)
         )

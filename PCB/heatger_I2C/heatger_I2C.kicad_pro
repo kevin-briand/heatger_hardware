@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.8,
-          "width": 1.07
+          "drill": 2.1,
+          "height": 2.1,
+          "width": 2.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -406,7 +406,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "heatger I2C.kicad_pro",
+    "filename": "heatger_I2C.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -442,7 +442,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "heatger I2C.step",
+      "step": "heatger_I2C.step",
       "vrml": "heatger I2C.wrl"
     },
     "page_layout_descr_file": ""
